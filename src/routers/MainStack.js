@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import auth from '@react-native-firebase/auth';
 import {ActivityIndicator} from 'react-native';
@@ -12,6 +12,7 @@ const MainStack = () => {
   const [user, setUser] = useState();
 
   function onAuthStateChanged(user) {
+    console.log('<<<< USER', user);
     setUser(user);
     if (initializing) {
       setInitializing(false);

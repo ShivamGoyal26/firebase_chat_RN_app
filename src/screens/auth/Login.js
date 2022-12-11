@@ -10,6 +10,8 @@ const Login = props => {
     <SafeAreaView style={styles.screen}>
       <View style={styles.screen}>
         <View style={{padding: 20}}>
+          <Text>LOGIN</Text>
+          <View style={{height: 20}} />
           <TextInput
             placeholder="Enter your email"
             value={email}
