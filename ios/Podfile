@@ -27,6 +27,7 @@ target 'firebase_chat_RN_app' do
   )
 
   pod 'GoogleUtilities', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
 
   target 'firebase_chat_RN_appTests' do
     inherit! :complete

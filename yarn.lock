@@ -1308,6 +1308,19 @@
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
+"@react-native-firebase/auth@^16.4.6":
+  version "16.4.6"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-16.4.6.tgz#4a7824a0fb43e25d8d5561321af19e6f4b44f284"
+  integrity sha512-le9SkPa7xNawHa58xyNE6ZzBLseVOz7LA1qYZDYrwqiVYZ6vGrHCiV9wRDmEz2MgQD2znigZnsUNd4p5RHvMWw==
+  dependencies:
+    "@expo/config-plugins" "^5.0.4"
+    plist "^3.0.5"
+
+"@react-native-firebase/firestore@^16.4.6":
+  version "16.4.6"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-16.4.6.tgz#8e5cff6ab27256134d92ad3d86d8fccfb1c16c28"
+  integrity sha512-8O0k0Usx908I5Ra+H2ALCxYDvmcvIL+dUYGRn+oUrnDkIL2crKU7QqV157phpC74tFMMWXIaUuFrqtGQgXBCww==
+
 "@react-native/assets@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-native/assets/-/assets-1.0.0.tgz#c6f9bf63d274bafc8e970628de24986b30a55c8e"
@@ -5686,11 +5699,6 @@ react-native-screens@^3.18.2:
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
-
-react-native-simple-toast@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-simple-toast/-/react-native-simple-toast-2.0.0.tgz#08f664acaaf1018fe0386aed5b3b38462ba09f83"
-  integrity sha512-x++CvxTLSTv+o5zaC8lv5W37VH0qMDs31wQPV1DH8OMHo1EJ3cMY0Nwblha1lwA9PK1ASuGLvHmumoVFQvnLkg==
 
 react-native@0.70.6:
   version "0.70.6"
